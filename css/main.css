@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container-header-slider {
+  background-image: url("../../images/desktop/image-header.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=main.css.map */
