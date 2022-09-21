@@ -8,4 +8,24 @@
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
+    header{
+        padding-top:25px;
+        nav{
+            li{
+                list-style-type:none;
+                color: white;
+            }
+        }
+    }
+
+    .main-slider{
+        .title-we-are{
+            font-family:'Fraunces',sans-serif;
+            color: white;
+            font-size: 65px;
+            font-weight: 900;
+            margin-top: 85px;
+            margin-bottom: 85px;
+        }
+    }
 }

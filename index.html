@@ -7,21 +7,15 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
+  
+  <!-- Link for font project -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
 
-  <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
 
   <link rel="stylesheet" type="text/css" href="./css/main.css">
 
@@ -32,7 +26,7 @@
       <figure class="figure-logo-header">
         <img src="./images/logo.svg" alt="logo sunnyside">
       </figure>
-      <nav class="d-flex gap-4">
+      <nav class="d-flex align-items-center gap-4">
         <li>About</li>
         <li>Services</li>
         <li>Projects</li>
@@ -42,13 +36,105 @@
       </nav>
     </header>
 
-    <section class="container text-center">
-      <h1>WE ARE CREATIVES</h1>
+    <section class="container text-center main-slider">
+      <h1 class=" title-we-are">WE ARE CREATIVES</h1>
+      <img class="img-arrow my-5" src="./images/icon-arrow-down.svg" alt="arrow for down">
     </section>
   </article>
   
-  <main class="container-fluid">
+  <main class="">
+    <!-- Container 2 -->
+    <article class="container-1">
+      <section class="container section-transform">
+        <div class="div-section-transform">
+          <h2>Transform your <br>brand</h2>
+          <p class="p-text-transform-brand">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <button class="learn-more-transform">
+            LEARN MORE
+          </button>
+        </div>
+      </section>
+      <section class="container-fluid section-egg-background"></section>
+    </article>
 
+    <!-- container 2 -->
+    <article class="container-2">
+      <section class="container-fluid section-cup-background"></section>
+      <section class="container section-stand">
+        <div class="div-section-stand">
+          <h2>Stand out to the right <br>audience</h2>
+          <p class="p-text-stand">
+            Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+          <button class="learn-more-stand">
+            LEARN MORE
+          </button>
+        </div>
+      </section>
+    </article>
+    <!-- container 3 -->
+    <article class="container-3">
+      <section class="section-graphic-design">
+        <h3>Graphic Design</h3>
+        <p class="text-graphic-design">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+      </section>
+      <section class="section-photography">
+        <h3>Photography</h3>
+        <p class="text-photography">
+          Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+      </section>
+    </article>
+
+    <article class="container-fluid section-testimonials">
+      <h2 class="title-testimonials">CLIENT TESTIMONIALS</h2>
+      <div class="container container-testimonials">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-1">
+          <img src="./images/image-emily.jpg" alt="picture of Emily for testimonials">
+          <p class="text-testimonials">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="name-testimonials">
+            Emily R.
+          </p>
+          <p class="job-testimonials">
+            Marketing Director
+          </p>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-2">
+          <img src="./images/image-thomas.jpg" alt="picture of Thomas for testimonials">
+          <p class="text-testimonials">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="name-testimonials">
+            Emily R.
+          </p>
+          <p class="job-testimonials">
+            Marketing Director
+          </p>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial-3">
+          <img src="./images/image-jennie.jpg" alt="picture of Jennie for testimonials">
+          <p class="text-testimonials">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="name-testimonials">
+            Emily R.
+          </p>
+          <p class="job-testimonials">
+            Marketing Director
+          </p>
+        </div>
+      </div>
+    </article>
   </main>
 
 
@@ -56,35 +142,12 @@
 
 
 
-  <!-- About
-  Services
-  Projects
-  Contact
+  <!--
 
-  We are creatives
-
-  Transform your brand
-
-  We are a full-service creative agency specializing in helping brands grow fast. 
-  Engage your clients through compelling visuals that do most of the marketing for you.
-
-  Learn more
-
-  Stand out to the right audience
-
-  Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
-
-  Learn more
-
-  Graphic design
-  Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
-
-  Photography
-  Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
 
   Client testimonials
 
-  We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+
   Emily R.
   Marketing Director
 
@@ -101,9 +164,9 @@
   Projects
   Contact -->
 
-  <div class="attribution">
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

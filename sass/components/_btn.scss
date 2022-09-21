@@ -1,0 +1,27 @@
+// Follow the btns of sunnyside agency
+
+.btn-contact-header{
+    border-radius: 25px;
+    border:none;
+    padding: 10px 18px 10px 18px ;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+// btn transform section
+
+.learn-more-transform{
+    font-family: 'Fraunces', sans-serif;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline 5px hsl(51, 100%, 49%);
+    cursor: pointer;
+}
+
+.learn-more-stand{
+    font-family: 'Fraunces', sans-serif;
+    background-color: transparent;
+    border: none;
+    text-decoration: underline 5px hsl(7, 99%, 70%);
+    cursor: pointer;
+}
